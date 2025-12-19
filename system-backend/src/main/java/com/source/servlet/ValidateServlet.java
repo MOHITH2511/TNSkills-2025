@@ -300,9 +300,9 @@ public class ValidateOrderItemsServlet extends HttpServlet {
     private int bulkInsertOrderItems(List<String> validRows) throws Exception {
 
     String sql =
-        "INSERT IGNORE INTO order_items " +
-        "(order_id, product_name, price, quantity, item_date) " +
-        "VALUES (?, ?, ?, ?, ?)";
+        "INSERT IGNORE INTO Trips " +
+        "(TripId, RegNo, Type, LastServiceDate, CurrentOdometer,LastServiceOdometer) " +
+        "VALUES (?, ?, ?, ?, ?, ?)";
 
     int insertedCount = 0;
 
