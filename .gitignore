@@ -1,0 +1,8 @@
+/build/
+/dist/
+/out/
+/target/
+
+/node_modules/
+.venv/
+/packages/
