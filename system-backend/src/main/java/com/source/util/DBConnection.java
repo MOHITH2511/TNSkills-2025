@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-        "jdbc:mysql://localhost:3306/fleet_management?useSSL=false&serverTimezone=UTC";
+        "jdbc:mysql://localhost:3306/belle_croissant?useSSL=false&serverTimezone=UTC";
 
     private static final String USER = "root";
     private static final String PASSWORD = "Mohith@005";
